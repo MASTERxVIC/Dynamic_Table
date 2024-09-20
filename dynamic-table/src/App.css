@@ -1,14 +1,73 @@
-.App {
-  text-align: center;
+.container{
+   padding: 50px ,10%;
+}
+table{
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 100%;
+   text-align: justify;
 }
 
-table {
-  width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse;
+table tr{
+  border-bottom: 1px solid black;
+  background-color: #3b757f;
+  color: white;
 }
 
-table, th, td {
-  border: 1px solid black;
-  padding: 8px;
+table tr th, table tr td{
+  padding: 5px;
 }
+
+.first{
+  background-color: #1a2c32;
+}
+
+/* Basic styles for the form */
+form {
+  width: auto;
+  margin: 50px auto; /* Center the form on the page */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 20px;
+  /* box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); */
+}
+.diff{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+/* Style for the input fields */
+input[type="text"] {
+  margin-bottom: 15px; /* Adds gap between input fields */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Add focus effect on input fields */
+input[type="text"]:focus {
+  outline: none;
+  border-color: rgb(7, 164, 7);  /* Change border color when focused */
+}
+
+/* Style for the submit button */
+form button {
+  padding: 10px;
+  background-color: rgb(7, 164, 7); 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  }
+
+/* Hover effect for the button */
+form button:hover {
+  background-color: rgb(10, 87, 10);
+}
+
+
